@@ -16,16 +16,16 @@
 
       <l:fixContent>
          <Panel expandable="true" expanded="{= !${device>/system/phone} }">
-            <!-- <headerToolbar>
+            <headerToolbar>
 					<Toolbar>
 						<Title text="Description" />
 						<ToolbarSpacer />
-						<Button id="btnLegend" icon="sap-icon://legend" press="onPressLegend"
+						<Button  id="btnLegend" icon="sap-icon://legend" press="onPressLegend"
 							tooltip="Hide legend" />
 						<Button id="btnResize" icon="sap-icon://resize" press="onPressResize"
 							tooltip="Minimize" />
 					</Toolbar>
-				</headerToolbar> -->
+				</headerToolbar>
          <content>
             <VBox>
                <Text
