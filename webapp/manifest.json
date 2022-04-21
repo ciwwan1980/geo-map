@@ -1,0 +1,31 @@
+{
+    "sap.app": {
+        "id": "ui5"
+    }, 
+    "sap.ui5": {
+		"rootView": {
+			"viewName": "sap.ui.vbm.sample.AnalyticMapSpots.Main",
+			"type": "XML",
+			"async": true
+		},
+		"dependencies": {
+			"libs": {
+				"sap.m": {},
+				"sap.ui.commons": {},
+				"sap.ui.layout": {},
+				"sap.ui.vbm": {}
+			}
+		},
+		"config": {
+			"sample": {
+				"stretch": true,
+				"files": [
+				
+					"App.controller.js",
+					"App.view.xml",
+					"manifest.json"
+				]
+			}
+		}
+	}
+}
